@@ -1,12 +1,12 @@
 package main
 
 import (
-	"time"
-	"os"
 	"fmt"
-	"net/http"
 	"io"
 	"io/ioutil"
+	"net/http"
+	"os"
+	"time"
 )
 
 func main() {

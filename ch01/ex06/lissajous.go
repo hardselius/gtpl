@@ -1,15 +1,15 @@
 package main
 
 import (
-	"image/color"
-	"os"
-	"io"
-	"math/rand"
-	"image/gif"
 	"image"
-	"math"
-	"net/http"
+	"image/color"
+	"image/gif"
+	"io"
 	"log"
+	"math"
+	"math/rand"
+	"net/http"
+	"os"
 	"time"
 )
 

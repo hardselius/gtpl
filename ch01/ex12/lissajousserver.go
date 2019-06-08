@@ -1,16 +1,16 @@
 package main
 
 import (
-	"image/color"
-	"io"
-	"math/rand"
-	"image/gif"
 	"image"
-	"math"
-	"net/http"
+	"image/color"
+	"image/gif"
+	"io"
 	"log"
-	"time"
+	"math"
+	"math/rand"
+	"net/http"
 	"strconv"
+	"time"
 )
 
 func main() {

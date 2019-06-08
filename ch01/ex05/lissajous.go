@@ -1,15 +1,15 @@
 package main
 
 import (
-	"image/color"
-	"os"
-	"io"
-	"math/rand"
-	"image/gif"
 	"image"
-	"math"
-	"net/http"
+	"image/color"
+	"image/gif"
+	"io"
 	"log"
+	"math"
+	"math/rand"
+	"net/http"
+	"os"
 )
 
 var palette = []color.Color{color.Black, color.RGBA{0x00, 0xFF, 0x00, 0xFF}}

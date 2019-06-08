@@ -1,9 +1,9 @@
 package main
 
 import (
-	"os"
-	"fmt"
 	"bufio"
+	"fmt"
+	"os"
 )
 
 func main() {
@@ -30,6 +30,7 @@ func main() {
 		}
 	}
 }
+
 func countLines(f *os.File, counts map[string]int, countsFiles map[string][]string) {
 	input := bufio.NewScanner(f)
 	name := f.Name()

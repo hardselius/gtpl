@@ -2,10 +2,14 @@ package main
 
 import (
 	"fmt"
-	"strings"
 	"os"
 )
 
 func main() {
-	fmt.Println(strings.Join(os.Args[0:], " "))
+	var s, sep string
+	for i := 0; i < len(os.Args); i++ {
+		s += sep + os.Args[i]
+		sep = " "
+	}
+	fmt.Println(s)
 }
